@@ -1,12 +1,15 @@
 import React from "react";
-import styles from "./App.module.scss";
+import { MainContainer } from "./Containers/MainContainer";
+import { Route, Routes } from "react-router-dom";
+import { PageWrapper } from "./Components/Commons/PageWrapper";
 
 function App() {
   return (
-    <div>
-      <h1>clear</h1>
-    </div>
-      
+    <Routes>
+      <Route path="/" element={<PageWrapper />}>
+        <Route path="/" element={<MainContainer />} />
+      </Route>
+    </Routes>
   );
 }
 

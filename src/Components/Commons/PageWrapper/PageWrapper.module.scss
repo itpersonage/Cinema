@@ -1,0 +1,14 @@
+@import "./../../../assets/style/main.scss";
+
+.wrapper {
+  background-color: $main-color;
+}
+
+.wrapper_container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 140px 1fr 127px;
+  height: 100vh; // or 100%
+  overflow: hidden; // Для избежания горизонтального скролла
+}
