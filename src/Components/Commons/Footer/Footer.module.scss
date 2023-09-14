@@ -1,3 +1,18 @@
-.footer {
-    background-color: #393778;
+@import  './../../../assets/style/main.scss';
+
+.footer_contact {
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+        color: $txt-light;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    a {
+        color: white;
+        font-size: 22px;
+        font-weight: 600;
+    }
 }
