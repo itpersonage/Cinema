@@ -1,18 +1,50 @@
-@import  './../../../assets/style/main.scss';
+@import './../../../assets/style/main.scss';
 
 .footer_contact {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-    h1 {
+  h1 {
+    color: $txt-light;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  a {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  form {
+    position: relative;
+
+    input {
+      height: 72px;
+      width: 410px;
+      background-color: transparent;
+      border: 2px solid $color-light;
+      font-size: 20px;
+      padding-left: 25px;
+    }
+
+    input::placeholder {
         color: $txt-light;
-        font-size: 24px;
-        font-weight: 400;
     }
+  }
+}
 
-    a {
-        color: white;
-        font-size: 22px;
-        font-weight: 600;
-    }
+
+.subscribe_form__btn {
+  height: 60px;
+  width: 147px;
+  position: absolute;
+  right: 4px;
+  top: 6px;
+  bottom: 6px;
+  background-color: $color-light;
+  border: none;
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
 }

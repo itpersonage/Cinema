@@ -24,14 +24,15 @@ export const Footer = () => {
             </Link>
             <Link to="./contact_tel">CA 90011</Link>
           </div>
-          
         </div>
-        <div className={style.footer__subscribe}>
-            <form>
-                <input type='email' placeholder='Enter email' />
-                <button type='submit'>Sing up</button>
-            </form>
-          </div>
+        <div className={style.footer_subscribe}>
+          <form className={style.subscribe_form}>
+            <input className={style.subscribe_form__input} type="email" placeholder="Enter email" />
+            <button className={style.subscribe_form__btn} type="submit">
+              Sing up
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   );
