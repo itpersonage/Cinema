@@ -3,6 +3,7 @@
 .footer_contact {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 50px;
 
   h1 {
     color: $txt-light;
@@ -29,11 +30,10 @@
     }
 
     input::placeholder {
-        color: $txt-light;
+      color: $txt-light;
     }
   }
 }
-
 
 .subscribe_form__btn {
   height: 60px;

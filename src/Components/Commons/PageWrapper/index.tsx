@@ -3,6 +3,7 @@ import style from "./PageWrapper.module.scss";
 import { Header } from "../Header";
 import { Outlet } from "react-router-dom";
 import { Footer } from "../Footer";
+import { FooterBottom } from "../FooterBottom";
 
 export const PageWrapper = () => {
   return (
@@ -12,6 +13,7 @@ export const PageWrapper = () => {
         <Outlet />
         <Footer />
       </div>
+      <FooterBottom />
     </div>
   );
 };

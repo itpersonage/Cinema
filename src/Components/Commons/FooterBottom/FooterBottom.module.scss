@@ -1,0 +1,22 @@
+@import './../../../assets/style/main.scss';
+
+.footer_bottom {
+  background-color: $color-midle;
+}
+
+.footer_bottom_container {
+  max-width: 1140px;
+  height: 127px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    font-size: 20px;
+    color: $txt-light;
+    padding-right: 2px;
+  }
+}
+
+// footer_social_allrights
