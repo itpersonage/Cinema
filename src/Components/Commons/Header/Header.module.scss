@@ -1,5 +1,7 @@
+@import './../../../assets/style/main.scss';
 .header {
   display: flex;
+  height: 140px;
   justify-content: space-between;
   align-items: center;
 }

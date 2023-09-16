@@ -4,11 +4,12 @@ import { Link } from 'react-router-dom';
 
 export const Header = () => {
   return (
-    <div className={style.header}>
-      <Link to="./">
-        <img src="/images/logo.svg" alt="logo" />
-      </Link>
-
+    <div className={`${style.header} ${style.container}`}>
+      <div>
+        <Link to="./">
+          <img src="/images/logo.svg" alt="logo" />
+        </Link>
+      </div>
       <nav className={style.header_nav}>
         <Link to="/The experience">
           <li>The experience</li>
