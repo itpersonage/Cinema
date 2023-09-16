@@ -11,12 +11,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  a {
-    font-size: 20px;
-    color: $txt-light;
-    padding-right: 2px;
-  }
 }
 
-// footer_social_allrights
+.footer_bottom_allrights a {
+  font-size: 20px;
+    color: $txt-light;
+    padding-right: 2px;
+}
+
+.footer_bottom_allrights a:hover {
+  color: white;
+}
+
+.footer_bottom_social a:not(:last-child) {
+  padding-right: 10px;
+}
+
+.footer_bottom_social a:hover > svg rect {
+  fill: $color-hover;
+}
