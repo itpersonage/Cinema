@@ -1,8 +1,11 @@
-import React from "react";
+import React from 'react';
 import style from './MainPage.module.scss';
+import { Rooftop } from './Rooftop';
 
 export const MainPage = () => {
-    return (
-        <h1>MainPage</h1>
-    )
-}
+  return (
+    <>
+      <Rooftop />
+    </>
+  );
+};

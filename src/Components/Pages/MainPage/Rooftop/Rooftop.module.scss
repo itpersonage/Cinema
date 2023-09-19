@@ -1,0 +1,45 @@
+@import './../../../../assets/style/main.scss';
+
+.rooftop {
+  display: flex;
+  align-items: center;
+}
+
+.rooftop_text {
+  width: 575px;
+  flex-shrink: 0;
+
+  p {
+    font-size: 20px;
+    color: $txt-light;
+  }
+
+  p:not(:first-child) {
+    margin-bottom: 140px;
+  }
+
+  h1 {
+    font-size: 60px;
+    color: white;
+    font-weight: 500;
+    padding-bottom: 10px;
+    padding-top: 40px;
+  }
+
+  button {
+    height: 59px;
+    width: 204px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 17px;
+  }
+
+  a:not(:last-child) {
+    button {
+      background-color: $color-hover;
+      margin-right: 56px;
+      border: none;
+    }
+  }
+}

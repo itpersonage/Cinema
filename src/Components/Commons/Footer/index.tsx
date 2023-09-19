@@ -8,7 +8,7 @@ export const Footer = () => {
       <div className={`${style.footer_contact} ${style.container}`}>
         <img src="/images/logo.svg" alt="logo" />
         <div>
-          <h1>Our contacts</h1>
+          <p>Our contacts</p>
           <Link to="/contact_email">
             info@roofcinema.com
             <br />
@@ -17,7 +17,7 @@ export const Footer = () => {
         </div>
         <div>
           <div>
-            <h1>Our office</h1>
+            <p>Our office</p>
             <Link to="/contact_email">
               4920 S Avalon Blvd, Los Angeles,
               <br />
