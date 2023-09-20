@@ -18,10 +18,7 @@ p {
   margin: 0;
   padding: 0;
 }
-h1,
-h2,
-h3,
-h4 {
+h1 {
   font-family: $title;
 }
 a {
@@ -32,10 +29,9 @@ a {
 li {
   list-style-type: none;
   font-family: $text;
-
 }
 .container {
-  max-width: 1140px;
+  max-width: 1290px;
   width: 100%;
   margin: 0 auto;
 }

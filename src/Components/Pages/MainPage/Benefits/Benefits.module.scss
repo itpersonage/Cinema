@@ -1,0 +1,28 @@
+@import './../../../../assets/style/main.scss';
+
+.benefits {
+    display: flex;
+    height: 524px;
+
+    img {
+        width: 576px;
+    }
+    
+}
+
+.benefits_text {
+    background-color: $color-midle;
+    height: 524px;
+    padding-top: 100px;
+    padding-left: 84px;
+    padding-right: 67px;
+
+    h1 {
+        margin-bottom: 40px;
+        font-size: 46px;
+        color: white;
+        font-weight: 400;
+    }
+
+
+}
