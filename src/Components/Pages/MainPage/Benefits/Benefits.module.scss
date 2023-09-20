@@ -3,13 +3,34 @@
 .benefits {
   display: flex;
   height: 524px;
+}
 
-  img {
-    width: 100%;
-    height: 100%;
+.benefits_video {
+  position: relative;
+}
+
+.benefits_video:hover {
+  opacity: 0.6;
+  .benefits_video_small_btn {
     display: block;
-    object-fit: cover;
   }
+  .benefits_video_small_btn:hover {
+    border: 2px solid white;
+  }
+}
+
+.benefits_video_small_btn {
+  position: absolute;
+  top: 232px;
+  left: 228px;
+  display: none;
+}
+
+.benefits_video_cover {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
 }
 
 .benefits_text {

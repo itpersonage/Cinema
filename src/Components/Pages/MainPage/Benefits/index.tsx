@@ -1,11 +1,15 @@
 import React from 'react';
 import style from './Benefits.module.scss';
+import { Link } from 'react-router-dom';
 
 export const Benefits = () => {
   return (
     <div className={`${style.benefits} ${style.container}`}>
       <div className={style.benefits_video}>
-        <img src="./images/benefits.jpg" alt="benefits" />
+        <Link to="./benefits_video">
+          <img className={style.benefits_video_small_btn} src='./images/small_btn.jpg' alt='small_btn'/>
+          <img className={style.benefits_video_cover} src="./images/benefits.jpg" alt="benefits" />
+        </Link>
       </div>
       <div className={style.benefits_text}>
         <h1>Open-air film experience</h1>
