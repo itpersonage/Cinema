@@ -1,0 +1,22 @@
+@import './../../../../assets/style/main.scss';
+
+.location_header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+
+  h1 {
+    font-size: 48px;
+    color: white;
+    font-weight: 400;
+  }
+}
+.location_header_btn button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.location_header_btn button:first-child {
+  margin-right: 30px;
+}
