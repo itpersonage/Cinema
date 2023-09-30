@@ -8,8 +8,8 @@ export const Benefits = () => {
       <div className={style.benefits_video}>
         <Link to="./benefits_video">
           <img className={style.benefits_video_small_btn} src='./images/small_btn.jpg' alt='small_btn'/>
-          <img className={style.benefits_video_cover} src="./images/benefits.jpg" alt="benefits" />
         </Link>
+        <img className={style.benefits_video_cover} src="./images/benefits.jpg" alt="benefits" />
       </div>
       <div className={style.benefits_text}>
         <h1>Open-air film experience</h1>

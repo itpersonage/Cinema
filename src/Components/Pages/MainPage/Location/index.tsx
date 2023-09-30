@@ -40,16 +40,24 @@ export const Location = () => {
         </div>
       </div>
       <div className={style.location_slider}>
-        <div className={style.location_item1}>
-          <button type="button">Choose location</button>
-          <img src="./images/place-1.jpg" alt="place-1" />
+        <div className={style.location_item}>
+          <div className={style.location_item_cover}>
+            <button type="button">Choose location</button>
+            <img src="./images/place-1.jpg" alt="place-1" />
+          </div>
         </div>
 
-        <div className={style.location_item2}>
-          <img src="./images/place-2.jpg" alt="place-2" />
+        <div className={style.location_item}>
+          <div className={style.location_item_cover}>
+            <button type="button">Choose location</button>
+            <img src="./images/place-2.jpg" alt="place-2" />
+          </div>
         </div>
-        <div className={style.location_item3}>
-          <img src="./images/place-3.jpg" alt="place-3" />
+        <div className={style.location_item}>
+          <div className={style.location_item_cover}>
+            <button type="button">Choose location</button>
+            <img src="./images/place-3.jpg" alt="place-3" />
+          </div>
         </div>
       </div>
     </div>
