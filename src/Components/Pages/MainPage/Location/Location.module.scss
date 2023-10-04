@@ -24,14 +24,14 @@
 
 .location_header_btn button:hover {
   transform: scale(1.05);
-    cursor: pointer;
+  cursor: pointer;
 }
 .location_slider {
   display: flex;
 }
 
 .location_item_cover:hover {
-  
+  transform: scale(1.05);
   img {
     opacity: 0.3;
   }
@@ -44,10 +44,10 @@
     color: white;
     letter-spacing: 1px;
   }
-   button:hover {
+  button:hover {
     transform: scale(1.05);
     cursor: pointer;
-   }
+  }
 }
 
 .location_item {
@@ -59,11 +59,6 @@
     height: 463px;
     object-fit: cover;
   }
-
-  // img:hover {
-  //   opacity: 0.6;
-
-  // }
 
   button {
     width: 234px;
@@ -79,4 +74,52 @@
 
 .location_item:not(:last-child) {
   margin-right: 30px;
+}
+
+.location_item_text_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+  color: white;
+
+  h2 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+.text_top_rating {
+  display: flex;
+  align-items: center;
+
+  svg {
+    margin-right: 6px;
+  }
+}
+
+.location_item_text_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 9px;
+
+  h2 {
+    font-size: 20px;
+    color: $txt-light;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 20px;
+    color: $txt-light;
+    span {
+      color: white;
+    }
+  }
 }
