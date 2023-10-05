@@ -1,0 +1,65 @@
+@import './../../../../assets/style/main.scss';
+
+.booking_section {
+  margin-top: 150px;
+  background-color: $color-midle;
+  overflow: hidden;
+}
+
+.booking {
+  display: flex;
+  height: 845px;
+}
+
+.booking_faq {
+  margin-top: 118px;
+  margin-bottom: 50px;
+  min-width: 50%;
+
+  h1 {
+    margin-bottom: 50px;
+    font-size: 46px;
+    color: white;
+    font-weight: 400;
+  }
+}
+
+.booking_faq_item {
+  margin-right: 80px;
+  margin-bottom: 20px;
+  padding: 30px 82px 30px 30px;
+  width: 570px;
+  border: 2px solid $color-light;
+  font-weight: 600;
+  position: relative;
+  font-size: 32px;
+  font-weight: 500;
+  color: white;
+
+  img {
+    position: absolute;
+    top: 42px;
+    right: 42px;
+    bottom: 42px;
+  }
+
+  div {
+    font-size: 20px;
+    color: $txt-light;
+    margin-top: 10px;
+    font-weight: 400;
+  }
+}
+
+.booking_faq_item_text,
+.hide {
+  display: none;
+}
+
+input:checked ~ .booking_faq_item_text {
+  display: block;
+}
+
+input:checked + label img {
+  transform: rotate(45deg);
+}

@@ -41,6 +41,11 @@
     text-transform: uppercase;
   }
 
+  button:hover {
+    transform: scale(1.05);
+  cursor: pointer;
+  }
+
   a:not(:last-child) {
     button {
       background-color: $color-hover;
