@@ -12,28 +12,32 @@
     font-weight: 400;
   }
 }
-.location_header_btn button {
-  padding: 0;
-  border: none;
-  background-color: transparent;
+.location_header_btn {
+  button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+
+    &:first-child {
+      margin-right: 30px;
+    }
+    &:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+  }
 }
 
-.location_header_btn button:first-child {
-  margin-right: 30px;
-}
-
-.location_header_btn button:hover {
-  transform: scale(1.05);
-  cursor: pointer;
-}
 .location_slider {
   display: flex;
 }
 
 .location_item_cover:hover {
-  transform: scale(1.05);
-  img {
-    opacity: 0.3;
+  &:hover {
+    transform: scale(1.05);
+    img {
+      opacity: 0.3;
+    }
   }
 
   button {
@@ -43,10 +47,11 @@
     font-size: 17px;
     color: white;
     letter-spacing: 1px;
-  }
-  button:hover {
-    transform: scale(1.05);
-    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
   }
 }
 
@@ -70,10 +75,9 @@
     top: 202px;
     display: none;
   }
-}
-
-.location_item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .location_item_text_top {
